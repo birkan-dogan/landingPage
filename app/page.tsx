@@ -6,6 +6,7 @@ import Image from 'next/image'
 import AOS from "aos";
 
 import { useEffect } from 'react';
+import Icons from '@/components/Icons';
 
 export default function Home() {
 
@@ -19,6 +20,7 @@ export default function Home() {
     <div>
       <Bubbles/>
       <Hero/>
+      <Icons/>
     </div>
     
   )
