@@ -30,10 +30,10 @@ const About = () => {
           <ul className="md:flex md:px-6">
             <li className="bg-[#FFF8D9] border-2 border-black rounded-2xl inline-block w-full md:w-1/2 mb-4 mr-4 le:mr-11 lgr:mx-[2rem] h-[29rem] md:h-[33rem] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
               <div className="text-center hidden md:flex ">
-                <Image alt="terapist" src={Art} />
+                <Image alt="notyet" src={Art} />
               </div>
               <div className="text-center md:hidden pt-6">
-                <Image alt="terapist" src={Art2} />
+                <Image alt="notyet" src={Art2} />
               </div>
               <div className="p-2 sxx:p-4">
                 <h1 className="text-center text-lg xrs:text-2xl md:text-lg mr:text-2xl lr:text-4xl le:p-2">
@@ -49,11 +49,11 @@ const About = () => {
             </li>
             <li className="bg-[#FFF8D9] border-2 border-black rounded-2xl inline-block w-full md:w-1/2 mr-4 le:mr-11 lgr:mx-[2rem] h-[29rem] md:h-[33rem] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
               <div className="text-center pt-6 hidden md:flex">
-                <Image alt="terapist" src={Market} />
+                <Image alt="notyet" src={Market} />
               </div>
 
               <div className="text-center pt-6 md:hidden">
-                <Image alt="terapist" src={Market2} />
+                <Image alt="notyet" src={Market2} />
               </div>
 
               <div className="p-4 md:mt-[2rem]">
