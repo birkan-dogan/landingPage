@@ -11,6 +11,7 @@ import Whyus from "@/components/WhyUs";
 import Services from "@/components/Services";
 import Qoute from "@/components/Qoute";
 import Parallax from "@/components/Parallax";
+import Info from "@/components/Info";
 
 export default function Home() {
   useEffect(() => {
@@ -29,6 +30,7 @@ export default function Home() {
       <Services />
       <Qoute />
       <Parallax />
+      <Info />
     </div>
   );
 }
