@@ -12,6 +12,7 @@ import Services from "@/components/Services";
 import Qoute from "@/components/Qoute";
 import Parallax from "@/components/Parallax";
 import Info from "@/components/Info";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   useEffect(() => {
@@ -31,6 +32,7 @@ export default function Home() {
       <Qoute />
       <Parallax />
       <Info />
+      <Contact />
     </div>
   );
 }
