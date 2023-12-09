@@ -9,6 +9,8 @@ import Icons from "@/components/Icons";
 import About from "@/components/About";
 import Whyus from "@/components/WhyUs";
 import Services from "@/components/Services";
+import Qoute from "@/components/Qoute";
+import Parallax from "@/components/Parallax";
 
 export default function Home() {
   useEffect(() => {
@@ -25,6 +27,8 @@ export default function Home() {
       <About />
       <Whyus />
       <Services />
+      <Qoute />
+      <Parallax />
     </div>
   );
 }
