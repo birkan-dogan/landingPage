@@ -1,5 +1,3 @@
-import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import Art from "../assets/art.png";
 import Art2 from "../assets/art2.png";
@@ -13,8 +11,8 @@ const About = () => {
         <div className="p-4 py-[5rem]">
           <div className="text-4xl lg:mx-[4rem] mb-11">
             <h1>
-              Hi, we&apos;re
-              <span className="bg-[#F7BE08] pl-1 pr-6">Mired</span>
+              Hi, we&apos;re{" "}
+              <span className="bg-[#F7BE08] pl-1 pr-6">LinSoft 🐧</span>
             </h1>
             <h4 className="text-2xl">Mir•ed</h4>
           </div>

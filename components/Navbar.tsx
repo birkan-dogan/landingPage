@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -32,9 +32,20 @@ const Navbar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
-      <div className="max-w-[1920px] m-auto flex justify-between items-center p-4 border-[#FFF8D9] xl:border-b-black xl:border-2 ">
-        <Link href="/" className="">
-          <Image src={Logo} width={153} height={36} className="w-16 h-16" alt="terapist"/>
+      <div
+        className={`max-w-[1920px] m-auto flex justify-between items-center p-4 border-[#FFF8D9] xl:border-b-black xl:border-2 text-[#05036F]`}
+      >
+        <Link href="/" className="flex items-center">
+          <Image
+            src={Logo}
+            width={153}
+            height={36}
+            className="w-16 h-16"
+            alt="terapist"
+          />
+          <span className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem] hover_nav xl:mx-5">
+            LinSoft 🐧
+          </span>
         </Link>
 
         <ul style={{ color: `${textColor}` }} className="hidden lg:flex">
@@ -42,19 +53,13 @@ const Navbar = () => {
             <Link href="/">home</Link>
           </li>
           <li className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem] hover_nav xl:mx-5">
-            <Link href="#services">
-              services
-            </Link>
+            <Link href="#services">services</Link>
           </li>
           <li className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem] hover_nav xl:mx-5">
-            <Link href="#info">
-              info
-            </Link>
+            <Link href="#info">info</Link>
           </li>
           <li className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem] w-[9rem] hover_nav xl:mx-5">
-            <Link href="#Portfolio">
-              our work
-            </Link>
+            <Link href="#Portfolio">our work</Link>
           </li>
 
           <button className="button-50 hidden sm:block my-2">
