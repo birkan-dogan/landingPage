@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Linux from "../assets/linux.png";
 import Art from "../assets/art.png";
 import Art2 from "../assets/art2.png";
 import Market from "../assets/market.png";
@@ -12,9 +13,11 @@ const About = () => {
           <div className="text-4xl lg:mx-[4rem] mb-11">
             <h1>
               Hi, we&apos;re{" "}
-              <span className="bg-[#F7BE08] pl-1 pr-6">LinSoft 🐧</span>
+              <span className="bg-[#F7BE08] pl-1 pr-6 py-1 flex items-center w-fit gap-1">
+                LinSoft{" "}
+                <Image className="w-16 h-16" alt="LinSoft" src={Linux} />
+              </span>
             </h1>
-            <h4 className="text-2xl">Mir•ed</h4>
           </div>
 
           <div className="relative md:flex items-center px-[10rem] lg:px-[18rem] hidden">

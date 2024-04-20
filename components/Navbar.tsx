@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../assets/Logo.png";
+import Linux from "../assets/linux.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
@@ -37,14 +37,14 @@ const Navbar = () => {
       >
         <Link href="/" className="flex items-center">
           <Image
-            src={Logo}
+            src={Linux}
             width={153}
             height={36}
-            className="w-16 h-16"
-            alt="terapist"
+            className="w-12 h-12 md:w-16 md:h-16"
+            alt="LinSoft"
           />
           <span className="p-4 font-bold sm:text-[0.95rem] md:text-[1.4rem] hover_nav xl:mx-5">
-            LinSoft 🐧
+            LinSoft
           </span>
         </Link>
 

@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Arrow from "../assets/arrow.png";
+import Linux from "../assets/linux.png";
 import Laptop2 from "../assets/laptop2.png";
 import { RoughNotationGroup } from "react-rough-notation";
 import RainbowHighlight from "./RainbowHighlight";
@@ -99,8 +100,10 @@ const Hero = () => {
         </div>
       </div>
       <div className="hidden sm:block lg:max-w-[550px] lr:max-w-[700px] m-auto hover_star">
-        <div className="absolute animate-spin sm:mt-[-55rem] mid:ml-[7rem] mid:mt-[-55rem] lg:mt-[-12rem] lg:ml-[-2rem]">
-          <span className="text-7xl ml-7 md:text-9xl">🐧</span>
+        <div className="absolute animate-spin sm:mt-[-55rem] mid:ml-[7rem] mid:mt-[-55rem] lg:mt-[-18rem] lg:ml-[-2rem]">
+          <span className="text-7xl ml-7 md:text-9xl ">
+            <Image className="w-32 h-32" alt="LinSoft" src={Linux} />
+          </span>
         </div>
         <div className="absolute sm:mt-[-44rem] sm:ml-[3.8rem] mid:ml-[8.7rem] mid:mt-[-44rem] lg:mt-[-10rem] lg:ml-[-1rem]">
           {/* <Image alt="software" src={espanol} width="85" /> */}
@@ -108,7 +111,9 @@ const Hero = () => {
       </div>
       <div className="hidden xs:block sm:hidden hover_star">
         <div className="absolute animate-spin xs:mt-[-38rem]">
-          <span className="text-7xl ml-7 md:text-9xl">🐧</span>
+          <span className="text-7xl ml-7 md:text-9xl">
+            <Image className="w-16 h-16" alt="LinSoft" src={Linux} />
+          </span>
         </div>
         <div className="absolute xs:mt-[-33.7rem] xs:ml-[2.7rem]">
           {/* <Image alt="software" src={espanol} width="60" height="19" /> */}
@@ -116,7 +121,9 @@ const Hero = () => {
       </div>
       <div className="xs:hidden block hover_star">
         <div className="absolute animate-spin mt-[-22rem]">
-          <span className="text-7xl ml-7 md:text-9xl">🐧</span>
+          <span className="text-7xl mr-32 md:text-9xl">
+            <Image className="w-16 h-16" alt="LinSoft" src={Linux} />
+          </span>
         </div>
         <div className="absolute mt-[-19.4rem] ml-[2rem]">
           {/* <Image alt="software" src={espanol} width="38" height="12.6" /> */}

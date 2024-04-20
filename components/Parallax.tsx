@@ -70,7 +70,7 @@ const Parallax = () => {
                 <b>best product for your users.</b>
               </p>
               <div className="flex justify-start pl-6 xxxxl:pl-11">
-                <div className="button-4 mt-11 bg-[#93C2EA] w-[115px]">
+                <div className="button-4 mt-11 bg-[#93C2EA] w-[125px]">
                   <Link href="#contact">Learn more</Link>
                 </div>
               </div>
@@ -137,7 +137,7 @@ const Parallax = () => {
                 out amongst the rest.
               </p>
               <div className="flex justify-start pl-6 xxxxl:pl-11">
-                <div className="button-4 mt-11 bg-[#89EB8D] w-[115px]">
+                <div className="button-4 mt-11 bg-[#89EB8D] w-[125px]">
                   <Link href="#contact">Learn more</Link>
                 </div>
               </div>
@@ -192,7 +192,7 @@ const Parallax = () => {
                 profile.
               </p>
               <div className="flex justify-end pr-6 xxxxl:pr-11">
-                <div className="button-4 mt-11 bg-[#5DE6D6] w-[115px]">
+                <div className="button-4 mt-11 bg-[#5DE6D6] w-[125px]">
                   <Link href="#contact">Learn more</Link>
                 </div>
               </div>
@@ -285,7 +285,7 @@ const Parallax = () => {
                 <b>nextjs.</b>
               </p>
               <div className="flex justify-end pr-6 xxxxl:pr-11">
-                <div className="button-4 mt-11 bg-[#FEABF8] w-[115px]">
+                <div className="button-4 mt-11 bg-[#FEABF8] w-[125px]">
                   <Link href="#contact">Learn more</Link>
                 </div>
               </div>
@@ -383,7 +383,7 @@ const Parallax = () => {
                 let us handle it.
               </p>
               <div className="flex justify-start pl-6 xxxxl:pl-11">
-                <div className="button-4 mt-11 bg-[#EA9293] w-[115px]">
+                <div className="button-4 mt-11 bg-[#EA9293] w-[125px]">
                   <Link href="#contact">Learn more</Link>
                 </div>
               </div>
@@ -457,7 +457,7 @@ const Parallax = () => {
                 moderaton.
               </p>
               <div className="flex justify-start pl-6 xxxxl:pl-11">
-                <div className="button-4 mt-11 bg-[#F6BE09] w-[115px]">
+                <div className="button-4 mt-11 bg-[#F6BE09] w-[125px]">
                   <Link href="#contact">Learn more</Link>
                 </div>
               </div>

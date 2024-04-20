@@ -44,7 +44,7 @@ const Info = () => {
               </div>
               <div className="3xs:p-3 xxs:p-5 m-auto flex justify-between items-center">
                 <h4 className="3xs:text-[0.9rem] xxs:text-[1.1rem] sx:text-[1.3rem]">
-                  comingSoon@gmail.com
+                  birkandogandev@gmail.com
                 </h4>
                 <div className="3xs:p-1 xxs:p-0 drop-shadow-[5px_4px_0px_rgb(0,0,0)]">
                   <Image src={Chat} alt="todo" />
@@ -69,17 +69,17 @@ const Info = () => {
               <h4 className="text-4xl ml-[6.5rem]">info</h4>
               <div className="border-t-[.16rem] border-black w-14 ml-[5rem]" />
             </div>
-            <div className="p-6 m-auto flex justify-between items-center">
+            <div className="py-6 px-3 m-auto flex justify-between items-center">
               <div className="drop-shadow-[5px_4px_0px_rgb(0,0,0)]">
                 <Image src={Hash} alt="todo" />
               </div>
               <h4 className="text-[1.5rem]"> (+90) 546 850 39 38</h4>
             </div>
-            <div className="p-6 m-auto flex justify-between items-center">
+            <div className="py-6 px-3 m-auto flex justify-between items-center gap-2">
               <div className="drop-shadow-[5px_4px_0px_rgb(0,0,0)]">
                 <Image src={Chat} alt="todo" />
               </div>
-              <h4 className="text-[1.3rem]">comingSoon@gmail.com</h4>
+              <h4 className="text-[1.3rem]">birkandogandev@gmail.com</h4>
             </div>
           </div>
         </div>

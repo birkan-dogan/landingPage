@@ -17,16 +17,16 @@ const Whyus = () => {
                   our passion is your passion!
                 </h4>
                 <p className="text-sm font-semibold mid:text-lg le:font-medium le:text-lg text-left w-2/3 mt-4">
-                  mired is a web development and creative marketing one-stop
+                  LinSoft is a web development and creative marketing one-stop
                   shop agency. there is no one-size-fits-all when it comes to
                   marketing, and we ensure custom, individualized, effective
                   strategies to scale your business.
                 </p>
-                <div className="border-2 border-black w-[145px] bg-black text-white mt-3 mid:ml-[8rem]">
+                <div className="border-2 border-black w-[145px] bg-black text-white text-center mt-3 mid:ml-[8rem]">
                   <p>see our strategy</p>
                 </div>
                 <div className="text-center p-2">
-                  <Image alt="terapist" src={Arrow} />
+                  <Image alt="LinSoft" src={Arrow} />
                 </div>
               </div>
             </div>
@@ -34,11 +34,11 @@ const Whyus = () => {
               <div className="border-2 border-black bg-[#fff] w-[365px] h-[204px] mid:w-[409.4px] mid:h-[224px] le:w-[545.4px] le:h-[304px] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
                 <div id="aboutus" className="flex justify-center">
                   <iframe
-                    className="w-[366.67px] h-[200px] mid:w-[420px] mid:h-[229px] le:w-[550px] le:h-[300px] m-auto"
-                    src="https://player.vimeo.com/video/744432157?h=056c136e3f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                    frameBorder="0"
-                    allow="autoplay; fullscreen; picture-in-picture"
-                    allowFullScreen
+                    width="1250"
+                    height="300"
+                    src="https://www.youtube.com/embed/o8NPllzkFhE"
+                    title="The mind behind Linux | Linus Torvalds | TED"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   ></iframe>
                 </div>
               </div>
@@ -53,24 +53,24 @@ const Whyus = () => {
               our passion is your passion!
             </h4>
             <p className="text-lg mt-4 text-center">
-              mired is a web development and creative marketing one-stop shop
+              LinSoft is a web development and creative marketing one-stop shop
               agency. there is no one-size-fits-all when it comes to marketing,
               and we ensure custom, individualized, effective strategies to
               scale your business.
             </p>
             <div className="flex justify-center m-auto">
-              <div className="border-2 border-black w-[145px] bg-black text-white mt-3 mid:ml-[8rem] text-center items-center justify-center">
+              <div className="border-2 border-black w-[145px] bg-black text-white text-center mt-3 mid:ml-[8rem] text-center items-center justify-center">
                 <p>see our strategy</p>
               </div>
             </div>
             <div className="absolute w-full bottom-20 left-[-8rem] p-2 rotate-90">
-              <Image alt="terapist" src={Arrow} />
+              <Image alt="LinSoft" src={Arrow} />
             </div>
             <div id="aboutus" className="py-8">
               <iframe
-                className="w-full h-[237px] flex"
-                src="https://player.vimeo.com/video/744432157?h=056c136e3f&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                frameBorder="0"
+                className="w-full"
+                src="https://www.youtube.com/embed/o8NPllzkFhE"
+                title="The mind behind Linux | Linus Torvalds | TED"
                 allow="autoplay; fullscreen; picture-in-picture"
                 allowFullScreen
               ></iframe>
