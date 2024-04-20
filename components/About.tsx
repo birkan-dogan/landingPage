@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Linux from "../assets/linux.png";
-import Art from "../assets/art.png";
+import Art from "../assets/Art.png";
 import Art2 from "../assets/art2.png";
 import Market from "../assets/market.png";
 import Market2 from "../assets/market2.png";
@@ -31,10 +31,10 @@ const About = () => {
           <ul className="md:flex md:px-6">
             <li className="bg-[#FFF8D9] border-2 border-black rounded-2xl inline-block w-full md:w-1/2 mb-4 mr-4 le:mr-11 lgr:mx-[2rem] h-[29rem] md:h-[33rem] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
               <div className="text-center hidden md:flex ">
-                <Image alt="notyet" src={Art} />
+                <Image alt="LinSoft" src={Art} />
               </div>
               <div className="text-center md:hidden pt-6">
-                <Image alt="notyet" src={Art2} />
+                <Image alt="LinSoft" src={Art2} />
               </div>
               <div className="p-2 sxx:p-4">
                 <h1 className="text-center text-lg xrs:text-2xl md:text-lg mr:text-2xl lr:text-4xl le:p-2">
@@ -50,11 +50,11 @@ const About = () => {
             </li>
             <li className="bg-[#FFF8D9] border-2 border-black rounded-2xl inline-block w-full md:w-1/2 mr-4 le:mr-11 lgr:mx-[2rem] h-[29rem] md:h-[33rem] drop-shadow-[5px_4px_0px_rgb(30,30,31)]">
               <div className="text-center pt-6 hidden md:flex">
-                <Image alt="notyet" src={Market} />
+                <Image alt="LinSoft" src={Market} />
               </div>
 
               <div className="text-center pt-6 md:hidden">
-                <Image alt="notyet" src={Market2} />
+                <Image alt="LinSoft" src={Market2} />
               </div>
 
               <div className="p-4 md:mt-[2rem]">

@@ -20,7 +20,7 @@ const Services = () => {
           <ul className="flex justify-center">
             <li className="m-2 mid:m-8 w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={mag} width="85" height="85" />
+                <Image alt="LinSoft" src={mag} width="85" height="85" />
                 <h1 className="text-lg py-8 mr:text-2xl">UX research</h1>
                 <h4 className="py-4">
                   competitive analysis, surveys, user interviews, usability
@@ -30,7 +30,7 @@ const Services = () => {
             </li>
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={design} width="85" height="85" />
+                <Image alt="LinSoft" src={design} width="85" height="85" />
                 <h1 className="text-lg mr:text-2xl py-8">UX/UI Design</h1>
                 <h4 className="py-4">
                   website, mobile applications, user interface
@@ -39,7 +39,7 @@ const Services = () => {
             </li>
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={branding} width="85" height="85" />
+                <Image alt="LinSoft" src={branding} width="85" height="85" />
                 <h1 className="text-lg mr:text-2xl py-8">Branding</h1>
                 <h4 className="py-4">
                   logo design, brand guidelines, positioning
@@ -50,14 +50,14 @@ const Services = () => {
           <ul className="flex justify-center">
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={dev} width="85" height="85" />
+                <Image alt="LinSoft" src={dev} width="85" height="85" />
                 <h1 className="text-lg mr:text-2xl py-8">Development</h1>
                 <h4 className="py-4">css, html javascript, react, nextjs</h4>
               </div>
             </li>
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={seo} width="85" height="85" />
+                <Image alt="LinSoft" src={seo} width="85" height="85" />
                 <h1 className="text-lg mr:text-2xl py-4">
                   Search Engine Optimization
                 </h1>
@@ -66,7 +66,7 @@ const Services = () => {
             </li>
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={social} width="85" height="85" />
+                <Image alt="LinSoft" src={social} width="85" height="85" />
                 <h1 className="text-lg mr:text-2xl py-4">
                   Social Media Management
                 </h1>
@@ -94,7 +94,7 @@ const Services = () => {
           <ul className="flex justify-center">
             <li className="m-2 mid:m-8 w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={mag} width="85" height="85" />
+                <Image alt="LinSoft" src={mag} width="85" height="85" />
                 <h1 className="text-sm 2xx:text-lg py-8 mr:text-2xl">
                   UX research
                 </h1>
@@ -106,7 +106,7 @@ const Services = () => {
             </li>
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={design} width="85" height="85" />
+                <Image alt="LinSoft" src={design} width="85" height="85" />
                 <h1 className="text-sm 2xx:text-lg mr:text-2xl py-8">
                   UX/UI Design
                 </h1>
@@ -119,7 +119,7 @@ const Services = () => {
           <ul className="flex justify-center">
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={branding} width="85" height="85" />
+                <Image alt="LinSoft" src={branding} width="85" height="85" />
                 <h1 className="text-sm 2xx:text-lg mr:text-2xl py-8">
                   Branding
                 </h1>
@@ -130,7 +130,7 @@ const Services = () => {
             </li>
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={dev} width="85" height="85" />
+                <Image alt="LinSoft" src={dev} width="85" height="85" />
                 <h1 className="text-sm 2xx:text-lg mr:text-2xl py-8">
                   Development
                 </h1>
@@ -143,7 +143,7 @@ const Services = () => {
           <ul className="flex justify-center">
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={seo} width="85" height="85" />
+                <Image alt="LinSoft" src={seo} width="85" height="85" />
                 <h1 className="text-sm 2xx:text-lg mr:text-2xl py-4 xs:py-8">
                   Search Engine Optimization
                 </h1>
@@ -154,7 +154,7 @@ const Services = () => {
             </li>
             <li className="m-2 mid:m-8  w-[300px] h-[320.46px] border-4 border-[#1E1E1F] bg-[#8878f9] drop-shadow-[9px_8px_0px_rgb(30,30,31)]">
               <div className="text-center p-2 lgr:p-6">
-                <Image alt="notyet" src={social} width="85" height="85" />
+                <Image alt="LinSoft" src={social} width="85" height="85" />
                 <h1 className="text-sm 2xx:text-lg mr:text-2xl py-4 xs:py-8">
                   Social Media Management
                 </h1>
